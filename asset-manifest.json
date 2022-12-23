@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78c8e907.css",
+    "main.js": "/static/js/main.e0f0264a.js",
+    "static/media/Lalezar-Regular.ttf": "/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
+    "static/media/map.png": "/static/media/map.67f0065e2700a9f4a95a.png",
+    "static/media/Parastoo.ttf": "/static/media/Parastoo.e79b1f9628248c282e0e.ttf",
+    "static/media/about-video.jpg": "/static/media/about-video.81db5631f18d2716fd85.jpg",
+    "static/media/Iranian Sans.ttf": "/static/media/Iranian Sans.8c2ed8fb0154947263c5.ttf",
+    "static/media/team-2.jpg": "/static/media/team-2.b2008acdf74612d89b8f.jpg",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.54e8f6f3d5f65e12c49b.jpg",
+    "static/media/testimonials-4.jpg": "/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
+    "index.html": "/index.html",
+    "main.78c8e907.css.map": "/static/css/main.78c8e907.css.map",
+    "main.e0f0264a.js.map": "/static/js/main.e0f0264a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78c8e907.css",
+    "static/js/main.e0f0264a.js"
+  ]
+}
