@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/StaticWeb/static/css/main.9ba50027.css",
-    "main.js": "/StaticWeb/static/js/main.30587295.js",
+    "main.css": "/StaticWeb/static/css/main.71cd5c52.css",
+    "main.js": "/StaticWeb/static/js/main.1c95f971.js",
     "static/media/Lalezar-Regular.ttf": "/StaticWeb/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
     "static/media/map.png": "/StaticWeb/static/media/map.67f0065e2700a9f4a95a.png",
     "static/media/Parastoo.ttf": "/StaticWeb/static/media/Parastoo.e79b1f9628248c282e0e.ttf",
     "static/media/about-video.jpg": "/StaticWeb/static/media/about-video.81db5631f18d2716fd85.jpg",
     "static/media/Iranian Sans.ttf": "/StaticWeb/static/media/Iranian Sans.8c2ed8fb0154947263c5.ttf",
+    "static/media/testimonials-2.jpg": "/StaticWeb/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
     "static/media/team-2.jpg": "/StaticWeb/static/media/team-2.b2008acdf74612d89b8f.jpg",
     "static/media/hero-bg.jpg": "/StaticWeb/static/media/hero-bg.54e8f6f3d5f65e12c49b.jpg",
+    "static/media/team-1.jpg": "/StaticWeb/static/media/team-1.30c859cd9a02bb5dcc9a.jpg",
+    "static/media/testimonials-1.jpg": "/StaticWeb/static/media/testimonials-1.54f2a70e2804cdf6f09d.jpg",
+    "static/media/team-3.jpg": "/StaticWeb/static/media/team-3.ca581ae1628e295ec2a0.jpg",
+    "static/media/team-4.jpg": "/StaticWeb/static/media/team-4.525dee063b26d6a44d1d.jpg",
+    "static/media/testimonials-5.jpg": "/StaticWeb/static/media/testimonials-5.8732aa377888dc5873fb.jpg",
     "static/media/testimonials-4.jpg": "/StaticWeb/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
+    "static/media/testimonials-3.jpg": "/StaticWeb/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/StaticWeb/index.html",
-    "main.9ba50027.css.map": "/StaticWeb/static/css/main.9ba50027.css.map",
-    "main.30587295.js.map": "/StaticWeb/static/js/main.30587295.js.map"
+    "main.71cd5c52.css.map": "/StaticWeb/static/css/main.71cd5c52.css.map",
+    "main.1c95f971.js.map": "/StaticWeb/static/js/main.1c95f971.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ba50027.css",
-    "static/js/main.30587295.js"
+    "static/css/main.71cd5c52.css",
+    "static/js/main.1c95f971.js"
   ]
 }
