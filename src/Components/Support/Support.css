@@ -1,0 +1,19 @@
+#support {
+  background-color: #2487ce;
+}
+
+.support__content {
+  text-align: center;
+}
+
+.support__title,
+.support__subtitle {
+  color: #fff !important;
+}
+
+.support__cta {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 1rem 4rem;
+  font-weight: bold;
+}
