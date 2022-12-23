@@ -1,4 +1,5 @@
 import React from "react";
+import ProfileBox from "../ProfileBox/ProfileBox";
 
 import "./Profiiles.css";
 
@@ -17,42 +18,18 @@ export default function Profiiles() {
             </p>
           </div>
           <div className="profile__boxes">
-            <div className="profile-box">
-              <div className="profile__image">
-                <img src={require("../../images/team-2.jpg")} alt="" />
-              </div>
-              <div className="profile__details">
-                <h3 className="profile__name">کیمیا رستگار</h3>
-                <h4 className="profile__job">مدیر تولید</h4>
-              </div>
-            </div>
-            <div className="profile-box">
-              <div className="profile__image">
-                <img src={require("../../images/team-2.jpg")} alt="" />
-              </div>
-              <div className="profile__details">
-                <h3 className="profile__name">کیمیا رستگار</h3>
-                <h4 className="profile__job">مدیر تولید</h4>
-              </div>
-            </div>
-            <div className="profile-box">
-              <div className="profile__image">
-                <img src={require("../../images/team-2.jpg")} alt="" />
-              </div>
-              <div className="profile__details">
-                <h3 className="profile__name">کیمیا رستگار</h3>
-                <h4 className="profile__job">مدیر تولید</h4>
-              </div>
-            </div>
-            <div className="profile-box">
-              <div className="profile__image">
-                <img src={require("../../images/team-2.jpg")} alt="" />
-              </div>
-              <div className="profile__details">
-                <h3 className="profile__name">کیمیا رستگار</h3>
-                <h4 className="profile__job">مدیر تولید</h4>
-              </div>
-            </div>
+            <ProfileBox name="امین احمدی" job="طراح گرافیک">
+              <img src={require("../../images/profiles/team-1.jpg")} alt="" />
+            </ProfileBox>
+            <ProfileBox name="کیمیا رستگار" job="مدیر تولید">
+              <img src={require("../../images/profiles/team-2.jpg")} alt="" />
+            </ProfileBox>
+            <ProfileBox name="ایمن جعفری" job="طراح">
+              <img src={require("../../images/profiles/team-3.jpg")} alt="" />
+            </ProfileBox>
+            <ProfileBox name="مریم صالحی" job="طراح">
+              <img src={require("../../images/profiles/team-4.jpg")} alt="" />
+            </ProfileBox>
           </div>
         </div>
       </section>

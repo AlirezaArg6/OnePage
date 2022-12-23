@@ -1,4 +1,5 @@
 import React from "react";
+import PlanBox from "../PlanBox/PlanBox";
 
 import "./Pricing.css";
 
@@ -16,64 +17,40 @@ export default function Pricing() {
           </p>
         </div>
         <div className="plan-boxes">
-          <div className="plan-box">
-            <h3 className="plan__name">کسب و کار</h3>
-            <h4 className="plan__price">
-              <sup>ماهانه</sup>29000<span> / تومان</span>
-            </h4>
-            <ul className="plan__sevices__list">
-              <li className="plan__services__list-item">مشاوره رایگان</li>
-              <li className="plan__services__list-item">هاست و دامین ریگان</li>
-              <li className="plan__services__list-item">
-                20 مگابایت فضای ذخیره سازی
-              </li>
-              <li className="plan__services__list-item plan__services__list-item--disabled">
-                ساب دامین اختصاصی
-              </li>
-              <li className="plan__services__list-item plan__services__list-item--disabled">
-                دامین .com
-              </li>
-            </ul>
-            <a href="#" className="btn plan__cta">
-              فعال سازی
-            </a>
-          </div>
-          <div className="plan-box">
-            <h3 className="plan__name">کسب و کار</h3>
-            <h4 className="plan__price">
-              <sup>ماهانه</sup>29000<span> / تومان</span>
-            </h4>
-            <ul className="plan__sevices__list">
-              <li className="plan__services__list-item">مشاوره رایگان</li>
-              <li className="plan__services__list-item">هاست و دامین ریگان</li>
-              <li className="plan__services__list-item">
-                20 مگابایت فضای ذخیره سازی
-              </li>
-              <li className="plan__services__list-item">ساب دامین اختصاصی</li>
-              <li className="plan__services__list-item">دامین .com</li>
-            </ul>
-            <a href="#" className="btn plan__cta">
-              فعال سازی
-            </a>
-          </div>
-          <div className="plan-box">
-            <h3 className="plan__name">کسب و کار</h3>
-            <h4 className="plan__price">
-              <sup>ماهانه</sup>29000<span> / تومان</span>
-            </h4>
-            <ul className="plan__sevices__list">
-              <li className="plan__services__list-item">مشاوره رایگان</li>
-              <li className="plan__services__list-item">هاست و دامین ریگان</li>
-              <li className="plan__services__list-item">
-                20 مگابایت فضای ذخیره سازی
-              </li>
-              <li className="plan__services__list-item">ساب دامین اختصاصی</li>
-              <li className="plan__services__list-item">دامین .com</li>
-            </ul>
-            <a href="#" className="btn plan__cta">
-              فعال سازی
-            </a>
-          </div>
+          <PlanBox
+            availbleItems={[
+              "مشاوره رایگان",
+              "هاست و دامین ریگان",
+              "20 مگابایت فضای ذخیره سازی",
+            ]}
+            unavailbleItems={["ساب دامین اختصاصی", "دامین .com"]}
+            price={0}
+            title="آغازین"
+          ></PlanBox>
+          <PlanBox
+            availbleItems={[
+              "مشاوره رایگان",
+              "هاست و دامین ریگان",
+              "20 مگابایت فضای ذخیره سازی",
+              "ساب دامین اختصاصی",
+            ]}
+            unavailbleItems={["دامین .com"]}
+            price={19000}
+            title="کسب و کار"
+            isBlue={true}
+          ></PlanBox>
+          <PlanBox
+            availbleItems={[
+              "مشاوره رایگان",
+              "هاست و دامین ریگان",
+              "20 مگابایت فضای ذخیره سازی",
+              "ساب دامین اختصاصی",
+              "دامین .com",
+            ]}
+            unavailbleItems={[]}
+            price={29000}
+            title="توسعه وب"
+          ></PlanBox>
         </div>
       </div>
     </section>

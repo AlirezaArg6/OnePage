@@ -16,4 +16,10 @@
   color: #fff;
   padding: 1rem 4rem;
   font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.support__cta:hover {
+  background-color: #fff;
+  color: var(--btns-color);
 }
