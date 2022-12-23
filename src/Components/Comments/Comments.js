@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import { RiDoubleQuotesL } from "react-icons/ri";
-import { RiDoubleQuotesR } from "react-icons/ri";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "./Comments.css";
@@ -8,6 +7,7 @@ import "./Comments.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import Aos from "aos";
+import CommentBox from "../CommentBox/CommentBox";
 
 export default function Comments() {
   useEffect(() => {
@@ -41,88 +41,74 @@ export default function Comments() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="comments__box">
-                <p>
-                  <RiDoubleQuotesL className="comments__icon" />
-                  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                  است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-                  هدف بهبود ابزارهای کاربردی می باشد.{" "}
-                  <RiDoubleQuotesR className="comments__icon" />
-                </p>
-                <img src={require("../../images/testimonials-4.jpg")} alt="" />
-                <h3>رضا صالحی</h3>
-                <h4>تولید محتوا</h4>
-              </div>
+              <CommentBox
+                commentBody=" چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                هدف بهبود ابزارهای کاربردی می باشد."
+                name="امین احمدی"
+                job="سئو و تولید محتوا"
+              >
+                <img
+                  src={require("../../images/avatars/testimonials-1.jpg")}
+                  alt=""
+                />
+              </CommentBox>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="comments__box">
-                <p>
-                  <RiDoubleQuotesL className="comments__icon" />
-                  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                  است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-                  هدف بهبود ابزارهای کاربردی می باشد.{" "}
-                  <RiDoubleQuotesR className="comments__icon" />
-                </p>
-                <img src={require("../../images/testimonials-4.jpg")} alt="" />
-                <h3>رضا صالحی</h3>
-                <h4>تولید محتوا</h4>
-              </div>
+              <CommentBox
+                commentBody=" چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                هدف بهبود ابزارهای کاربردی می باشد."
+                name="سارا خلیلی"
+                job="طراح"
+              >
+                <img
+                  src={require("../../images/avatars/testimonials-2.jpg")}
+                  alt=""
+                />
+              </CommentBox>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="comments__box">
-                <p>
-                  <RiDoubleQuotesL className="comments__icon" />
-                  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                  است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-                  هدف بهبود ابزارهای کاربردی می باشد.{" "}
-                  <RiDoubleQuotesR className="comments__icon" />
-                </p>
-                <img src={require("../../images/testimonials-4.jpg")} alt="" />
-                <h3>رضا صالحی</h3>
-                <h4>تولید محتوا</h4>
-              </div>
+              <CommentBox
+                commentBody=" چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                هدف بهبود ابزارهای کاربردی می باشد."
+                name="جان ویک"
+                job="سئو"
+              >
+                <img
+                  src={require("../../images/avatars/testimonials-3.jpg")}
+                  alt=""
+                />
+              </CommentBox>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="comments__box">
-                <p>
-                  <RiDoubleQuotesL className="comments__icon" />
-                  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                  است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-                  هدف بهبود ابزارهای کاربردی می باشد.{" "}
-                  <RiDoubleQuotesR className="comments__icon" />
-                </p>
-                <img src={require("../../images/testimonials-4.jpg")} alt="" />
-                <h3>رضا صالحی</h3>
-                <h4>تولید محتوا</h4>
-              </div>
+              <CommentBox
+                commentBody=" چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                هدف بهبود ابزارهای کاربردی می باشد."
+                name="رضا صالحی"
+                job=" تولید محتوا"
+              >
+                <img
+                  src={require("../../images/avatars/testimonials-4.jpg")}
+                  alt=""
+                />
+              </CommentBox>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="comments__box">
-                <p>
-                  <RiDoubleQuotesL className="comments__icon" />
-                  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                  است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-                  هدف بهبود ابزارهای کاربردی می باشد.{" "}
-                  <RiDoubleQuotesR className="comments__icon" />
-                </p>
-                <img src={require("../../images/testimonials-4.jpg")} alt="" />
-                <h3>رضا صالحی</h3>
-                <h4>تولید محتوا</h4>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="comments__box">
-                <p>
-                  <RiDoubleQuotesL className="comments__icon" />
-                  چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-                  است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
-                  هدف بهبود ابزارهای کاربردی می باشد.{" "}
-                  <RiDoubleQuotesR className="comments__icon" />
-                </p>
-                <img src={require("../../images/testimonials-4.jpg")} alt="" />
-                <h3>رضا صالحی</h3>
-                <h4>تولید محتوا</h4>
-              </div>
+              <CommentBox
+                commentBody=" چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                هدف بهبود ابزارهای کاربردی می باشد."
+                name="امین رضایی"
+                job="فریلنسر"
+              >
+                <img
+                  src={require("../../images/avatars/testimonials-5.jpg")}
+                  alt=""
+                />
+              </CommentBox>
             </SwiperSlide>
           </Swiper>
         </div>

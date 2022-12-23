@@ -9,42 +9,42 @@ export default function Clients() {
         <div className="client-boxes">
           <div className="client-box">
             <img
-              src={require("../../images/client-4.png")}
+              src={require("../../images/clients/client-1.png")}
               alt=""
               className="client-img"
             />
           </div>
           <div className="client-box">
             <img
-              src={require("../../images/client-4.png")}
+              src={require("../../images/clients/client-2.png")}
               alt=""
               className="client-img"
             />
           </div>
           <div className="client-box">
             <img
-              src={require("../../images/client-4.png")}
+              src={require("../../images/clients/client-3.png")}
               alt=""
               className="client-img"
             />
           </div>
           <div className="client-box">
             <img
-              src={require("../../images/client-4.png")}
+              src={require("../../images/clients/client-4.png")}
               alt=""
               className="client-img"
             />
           </div>
           <div className="client-box">
             <img
-              src={require("../../images/client-4.png")}
+              src={require("../../images/clients/client-5.png")}
               alt=""
               className="client-img"
             />
           </div>
           <div className="client-box">
             <img
-              src={require("../../images/client-4.png")}
+              src={require("../../images/clients/client-6.png")}
               alt=""
               className="client-img"
             />

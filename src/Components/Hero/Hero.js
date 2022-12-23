@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { BsStack } from "react-icons/bs";
+import { BiPaint } from "react-icons/bi";
+import { MdSecurity, MdCleaningServices } from "react-icons/md";
 import HeroBox from "../HeroBox/HeroBox";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,20 +31,26 @@ export default function Hero() {
               <BsStack className="hero-box__icon" />
             </HeroBox>
             <HeroBox
-              title="دیتابیس ایمن"
+              title="رنگبندی متنوع "
               desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است."
-            />
+            >
+              <BiPaint className="hero-box__icon" />
+            </HeroBox>
             <HeroBox
-              title="دیتابیس ایمن"
+              title="کد نویسی مرتب "
               desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است."
-            />
+            >
+              <MdCleaningServices className="hero-box__icon" />
+            </HeroBox>
             <HeroBox
-              title="دیتابیس ایمن"
+              title=" کاملا ایمن"
               desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است."
-            />
+            >
+              <MdSecurity className="hero-box__icon" />
+            </HeroBox>
           </div>
         </div>
       </div>

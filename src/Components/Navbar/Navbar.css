@@ -130,6 +130,11 @@
   color: var(--white-color);
   background-color: var(--btns-color);
   margin-right: 1.5rem;
+  transition: all 0.25s ease-in-out;
+}
+
+.header__cta:hover {
+  opacity: 0.8;
 }
 
 /* start dropdown */

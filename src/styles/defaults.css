@@ -63,6 +63,7 @@ p {
   font-weight: bold;
   margin: 2.7rem 0;
   font-size: 1.8rem;
+  transition: all 0.25s ease-in-out;
 }
 
 .box__description {

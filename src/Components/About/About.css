@@ -46,4 +46,10 @@
   border: 2px solid var(--btns-color);
   padding: 0.7rem 3.5rem !important;
   font-size: 1.3rem !important;
+  transition: all 0.25s ease-in-out;
+}
+
+.about__cta:hover {
+  background-color: var(--btns-color);
+  color: #fff;
 }
