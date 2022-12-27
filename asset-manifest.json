@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/StaticWeb/static/css/main.71cd5c52.css",
-    "main.js": "/StaticWeb/static/js/main.1c95f971.js",
+    "main.css": "/StaticWeb/static/css/main.309c4f2f.css",
+    "main.js": "/StaticWeb/static/js/main.74a03191.js",
     "static/media/Lalezar-Regular.ttf": "/StaticWeb/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
     "static/media/map.png": "/StaticWeb/static/media/map.67f0065e2700a9f4a95a.png",
     "static/media/Parastoo.ttf": "/StaticWeb/static/media/Parastoo.e79b1f9628248c282e0e.ttf",
@@ -18,11 +18,11 @@
     "static/media/testimonials-4.jpg": "/StaticWeb/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
     "static/media/testimonials-3.jpg": "/StaticWeb/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/StaticWeb/index.html",
-    "main.71cd5c52.css.map": "/StaticWeb/static/css/main.71cd5c52.css.map",
-    "main.1c95f971.js.map": "/StaticWeb/static/js/main.1c95f971.js.map"
+    "main.309c4f2f.css.map": "/StaticWeb/static/css/main.309c4f2f.css.map",
+    "main.74a03191.js.map": "/StaticWeb/static/js/main.74a03191.js.map"
   },
   "entrypoints": [
-    "static/css/main.71cd5c52.css",
-    "static/js/main.1c95f971.js"
+    "static/css/main.309c4f2f.css",
+    "static/js/main.74a03191.js"
   ]
 }
