@@ -152,6 +152,7 @@
   top: 4rem;
   visibility: hidden;
   opacity: 0;
+  transition: all 0.3s ease;
 }
 
 .navbar__item:hover .navbar-dropdown {

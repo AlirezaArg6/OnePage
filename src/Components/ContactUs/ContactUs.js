@@ -1,5 +1,8 @@
 import React from "react";
 import { GoLocation } from "react-icons/go";
+import { AiOutlinePhone } from "react-icons/ai";
+import { MdOutlineMail } from "react-icons/md";
+import { ContactUsBox } from "../../ContactUsBox/ContactUsBox";
 
 import "./ContactUs.css";
 
@@ -26,45 +29,15 @@ export default function ContactUs() {
               <img src={require("../../images/map.png")} alt="" />
             </div>
             <div className="contact__infos">
-              <div className="contact-infos__box">
-                <div className="contact-infos__box__right">
-                  <div className="infos-icon__container">
-                    <GoLocation className="infos-icon" />
-                  </div>
-                </div>
-                <div className="contact-infos__box__left">
-                  <span className="infos__box__title">آدرس:</span>
-                  <p className="infos__box__desc">
-                    شیراز ، بلوار چمران ، هتل چمران
-                  </p>
-                </div>
-              </div>
-              <div className="contact-infos__box">
-                <div className="contact-infos__box__right">
-                  <div className="infos-icon__container">
-                    <GoLocation className="infos-icon" />
-                  </div>
-                </div>
-                <div className="contact-infos__box__left">
-                  <span className="infos__box__title">آدرس:</span>
-                  <p className="infos__box__desc">
-                    شیراز ، بلوار چمران ، هتل چمران
-                  </p>
-                </div>
-              </div>
-              <div className="contact-infos__box">
-                <div className="contact-infos__box__right">
-                  <div className="infos-icon__container">
-                    <GoLocation className="infos-icon" />
-                  </div>
-                </div>
-                <div className="contact-infos__box__left">
-                  <span className="infos__box__title">آدرس:</span>
-                  <p className="infos__box__desc">
-                    شیراز ، بلوار چمران ، هتل چمران
-                  </p>
-                </div>
-              </div>
+              <ContactUsBox title="آدرس" desc="شیراز ، بلوار چمران ، هتل چمران">
+                <GoLocation className="infos-icon" />
+              </ContactUsBox>
+              <ContactUsBox title="ایمیل" desc="info@example.com">
+                <MdOutlineMail className="infos-icon" />
+              </ContactUsBox>
+              <ContactUsBox title="شماره تماس" desc="09355555555">
+                <AiOutlinePhone className="infos-icon" />
+              </ContactUsBox>
             </div>
             <div className="contact-form">
               <form action="">

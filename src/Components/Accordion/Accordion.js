@@ -40,7 +40,7 @@ export default function Accordions() {
     },
   ];
 
-  const [idExpanded, setIdExpanded] = useState(null);
+  const [idExpanded, setIdExpanded] = useState(1);
 
   return (
     <div>
